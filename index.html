@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <!----> 
+    <link rel="icon" type="image/png" href="img/G.png">
+
+    <!--Main CSS-->
+    <link rel="stylesheet" href="Style/Style.css">
+    <title>Responsive Personal Portfolio WebSite</title>
+</head>
+<body>
+    <!--Header Design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="bi bi-list" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" >Sobre</a>
+            <a href="#portfolio" >Portfolio</a>
+            <a href="https://wa.me/5511947435906" target="_blank">
+                <i class="bi bi-whatsapp"></i> Meu Contato
+            </a>
+        </nav>
+    </header>
+    <!-- HOME SECTION DESIGN -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, Meu nome é</h3>
+            <h1>Guilherme Moreira</h1>
+            <h3>e eu sou <span class="multiple-text"> </span></h3>
+            <p></p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/guipasss/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/guilherme-moreria/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/GuilhermeMoreira0" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://wa.me/5511947435906" target="_blank">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+
+            </div>
+            <a href="Documentos/CV_Guilherme_Moreira.pdf" class="btn" download="Documentos/CV_Guilherme_Moreira.pdf">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/imagemnova1.jpg" alt="">
+        </div>
+    </section>
+
+    <!--ABOUT SECTION DESIGN-->
+    <section class="about" id="about">
+        <div class="about-img">
+            
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading"><span>Sobre</span></h2>
+            <h3>Desenvolvedor Back-end</h3>
+            <div class="about-text">
+                <p>Sou desenvolvedor back-end com experiência no desenvolvimento, manutenção e otimização de sistemas internos voltados à melhoria de performance e automação de processos. Tenho foco em resolver problemas reais e entregar soluções que otimizem o trabalho da equipe e tragam mais eficiência para o dia a dia das empresas.</p>
+        
+                <p>Já atuei em projetos que exigiram desde a automação de tarefas manuais até a estruturação de relatórios personalizados, com base em dados dinâmicos e parâmetros definidos pelos usuários. Trabalhei tanto em desenvolvimento solo, onde fui responsável por todo o ciclo da aplicação, quanto em trabalho em equipe, colaborando na criação e evolução de sistemas completos.</p>
+        
+                <p>Um dos meus principais diferenciais é a proatividade: quando enfrento um desafio técnico, busco aprender e aplicar soluções rapidamente. Em uma das experiências, investi por conta própria em cursos específicos para modernizar uma estrutura de relatórios desatualizada. O resultado foi a entrega de mais de 10 relatórios funcionais, parametrizados e totalmente integrados ao sistema.</p>
+        
+                <p>Tenho interesse constante em aprender novas tecnologias, entender as necessidades do negócio e contribuir com sistemas bem estruturados, escaláveis e fáceis de manter. Estou sempre em busca de evoluir como desenvolvedor back-end e entregar soluções que realmente agreguem valor.</p>
+            </div>
+        </div>
+    </section>
+
+  
+
+   <!-- PORFOLIO SECTION DESIGN -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Meus <span>Projetos</span></h2>
+  
+    <div class="portfolio-container texto">
+      
+      <!-- PROJETO À ESQUERDA -->
+      <div class="projeto left">
+        <div class="conteudo">
+          <h2>ESPAIDER</h2>
+          <p> Espaider é um projeto desenvolvido para automatizar um serviço que antes era manual. Ele realiza a migração de relatórios do Excel para o SQL e, com um parâmetro específico, executa uma procedure no SQL que gera relatórios no Report Service.</p>
+          <button class="open-modal" data-modal="modal-espaider">Ver mais</button>
+        </div>
+      </div>
+  
+      <!-- PROJETO À DIREITA -->
+      <div class="projeto right">
+        <div class="conteudo">
+          <h2>Relatórios Espaider</h2>
+          <p>O Relatórios Espaider foi um projeto desenvolvido para complementar o funcionamento do Espaider. Originalmente, os relatórios eram criados no Crystal Reports, mas foram migrados para o SQL Server Reporting Services (SSRS) para melhor integração e funcionalidade.</p>
+          <button class="open-modal" data-modal="modal-relatorios">Ver mais</button>
+        </div>
+      </div>
+  
+      <!-- PROJETO À ESQUERDA -->
+      <div class="projeto left">
+        <div class="conteudo">
+          <h2>StrongFuel</h2>
+          <p>O StrongFUEL foi um projeto de e-commerce que desenvolvi na faculdade, utilizando PHP e MySQL. Ele possui banco de dados integrado, permitindo o uso do carrinho de compras, uma página principal com os produtos e uma página de gestão onde é possível adicionar, editar ou remover itens da loja.</p>
+          <button class="open-modal" data-modal="modal-strongfuel">Ver mais</button>
+        </div>
+      </div>
+  
+      <!-- PROJETO À DIREITA -->
+      <div class="projeto right">
+        <div class="conteudo">
+          <h2>JARI e GESTÃO</h2>
+          <p>A Ficha de Inscrição JARI foi um projeto desenvolvido para o processo de seleção de representantes da comunidade na JARI da Prefeitura Municipal de São Paulo.
+
+            Esse foi o meu primeiro projeto e tinha como objetivo principal coletar dados dos candidatos por meio de um formulário com diversos campos pessoais.</p>
+            <br>
+            <p>
+                Além disso, o sistema incluía uma página de Gestão, acessível apenas por pessoas autorizadas, onde era possível visualizar todas as informações enviadas.
+            </p>
+          <button class="open-modal" data-modal="modal-jari">Ver mais</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- MODAIS -->
+  <div id="modal-espaider" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Desafios Espaider</h2>
+      <br>
+      <p>
+        • Migrar planilhas do Excel para o SQL Server, garantindo que as colunas da planilha fossem enviadas corretamente para as colunas com o mesmo nome no banco, mesmo quando a planilha viesse com formatos diferentes.
+      </p>
+      <br>
+      <p>
+        • Ao finalizar o projeto, enfrentei um problema onde os relatórios funcionavam apenas para usuários conectados ao nosso servidor interno.
+      </p>
+      <br>
+      <p>
+        • A solução foi criar um projeto em ASPX conectado ao Espaider, que fazia a chamada dos relatórios e passava o parâmetro necessário, garantindo que qualquer pessoa com acesso ao sistema pudesse visualizar os relatórios corretamente.
+      </p>
+        <br>
+      <h2>Tecnologias utilizadas: </h2>
+      <br>
+      <p>
+        • C#
+        • .NET
+        • ASPX
+        • SQL Server
+        • HTML 
+        • CSS
+        • JavaScript
+        • BootStrap
+      </p>
+      
+    </div>
+  </div>
+  
+  <div id="modal-relatorios" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Desafios Relatorio Espaider</h2>
+      <br>
+      <p>• O primeiro desafio foi lidar com o Crystal Reports, já que nunca tinha trabalhado com ele antes. Além disso, os relatórios estavam em uma máquina remota, o que dificultava o acesso e a compreensão do funcionamento.</p>
+      <br>
+      <p>• O segundo desafio foi migrar os relatórios para o SSRS (SQL Server Reporting Services). Para isso, precisei procurar e até pagar cursos para aprender como utilizar o SSRS e fazer a migração corretamente do Crystal Reports para o novo sistema.</p>
+        <br>
+        <br>
+    <h2>Tecnologias utilizadas</h2>
+        <p>• Crystal Reports
+            • SQL Server Reporting Services (SSRS)</p>
+    </div>
+  </div>
+  
+  <div id="modal-strongfuel" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Desafios Strong Fuel</h2>
+      <br>
+      <br>
+      <p>• O maior desafio foi o fato de não saber nada sobre PHP. Para conseguir avançar, estudei muito por conta própria, assistindo vídeos, praticando codificação em PHP, e buscando materiais na Alura e DIO, além de usar o ChatGPT.</p>
+      <br>
+      <p>• O tempo foi um fator complicado, pois não tive muito para aprender a fundo, mas consegui me virar e entregar o projeto. O objetivo era criar algo simples e funcional, e no final consegui um resultado bem bonito e dentro do prazo.</p>
+      <br>
+      <br>
+      <h2>Tecnologias utilizadas</h2>
+      <p>• PHP
+        • MySQL
+        • HTML
+        • CSS
+        • JavaScript</p>
+    </div>
+  </div>
+  
+  <div id="modal-jari" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Desafios Ficha de Inscrição JARI</h2>
+      <br>
+      <br>
+      <p>• O maior desafio foi não saber nada de programação. Eu já havia estudado na faculdade para criar códigos voltados para matemática e feito cursos de lógica de programação, mas nunca tinha programado para valer.</p>
+      <br>
+      <p>• Como eu e meu colega de estágio estávamos aprendendo juntos, tivemos que estudar bastante durante um mês sobre todas as tecnologias envolvidas.</p>
+      <br>
+      <p>• O projeto foi um desafio após o outro, como formatar campos, conectar o front-end com o back-end, validar dados como CPF e e-mail, além de aprender a conectar o back-end ao banco de dados SQL Server.</p>
+      <br>
+      <p>• Outro desafio foi impedir que o usuário manipulasse a URL para garantir a integridade das informações.</p>
+      <br>
+      <p>• No final, a parte de Gestão foi mais simples, conectamos com o banco de dados e criamos a tabela para visualizar as informações da inscrição.</p>
+      <br>
+      <p>• Apesar de muitos erros simples ao longo do processo, conseguimos corrigir tudo e apresentar o projeto funcionando.</p>
+
+      <h2>Tecnologias utilizadas</h2>
+      <br>
+      <p>• C#
+        • .NET
+        • SQL Server
+        • HTML
+        • CSS
+        • JavaScript
+        • Bootstrap</p>
+    </div>
+  </div>
+    <!--FOOTER SECTION DESIGN-->
+    
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2025 Desenvolvido por Guilherme Moreira</p>
+
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bi bi-chevron-up"></i></a>
+        </div>
+    </footer>
+    <!--SCROLL REVEAL JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- TYPED JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--MAIN JS -->
+    <script src="JS/main.js"></script>
+</body>
+</html>
